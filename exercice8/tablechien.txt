@@ -1,0 +1,15 @@
+#------------------------------------------------------------
+#        Script MySQL.
+#------------------------------------------------------------
+
+
+#------------------------------------------------------------
+# Table: chien
+#------------------------------------------------------------
+
+CREATE TABLE `chien` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `nom` varchar(100) NOT NULL,
+  `age` varchar(100) NOT NULL,
+  `race` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,48 @@
+**********************************************************
+1/ Un patient peut-il faire plusieurs consultes ?
+
+Oui un patient peut prendre plusieurs consultation car la cardinalité est 1,n donc un patient peut prendre plusieurs consultation grace au ,n .
+
+**********************************************************
+
+2/ Un médecin peut-il recevoir plusieurs patients ?
+
+Non , car la cardinalité 1,1 permet à UN Medicin de donner une seul consultation d'un patient 
+Les table se mixent les clé etrangères de l'entité medecin et Patient se retrouve dans la table consultation 
+**********************************************************
+
+3/ Si oui, en même temps ?
+
+non car il y'a la cardinalité 1,1 de chaque côté de la table consultation , les clé étrangère de Medecin et Patient se retrouve dans la table consultation
+et permet du coup d'avoir pour une consultation pour 1 seul patient et 1 medecin 
+**********************************************************
+
+4/ Comment faire pour avoir 10 médicaments ?
+
+Pour avoir 10 médicaments , ce nombre se retrouvera dans la table prescire grace à la cardinalité 0,n de la relation prescire une nouvelle table se crée pour permettre
+d'avoir plusieurs medicament pour plusieurs consultation
+
+**********************************************************
+
+
+5/ Peut-on prescrire 10 médicaments pour une
+même consultation ?
+
+oui car la cardinalité 0 permet de pas définir une prescire unique mais le n definira plusieurs medicament
+
+**********************************************************
+
+6/ Est-ce que deux médecins peuvent prescrire le
+même médicament.
+
+oui grâce à la table préscrire , on pourra avoir plusieurs medicament pour plusieurs consultation , cette clé consultation et clé étrangère ( medecin et patient )
+se retrouve ensuite dans la consultation , les 2 deux médecins ne sont donc pas lier à la cardinalité du même medicament et se retrouvent appart des deux médecins 
+ 
+
+**********************************************************
+
+
+
+**********************************************************
+FAIRE à main levée et prendre en photo sans
+passer par JMERISE le MLD du MCD de ce slide.

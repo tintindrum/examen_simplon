@@ -1,0 +1,75 @@
+***********************************************************
+1/ Client / Serveur ( rapport et interaction entre les deux ) ?
+
+Le rapport client /serveur désigne un mode d'échange entre eux (avec un réseau local ou serveur distant) avec plusieurs languagues de programmation .
+
+Le client établit la connexion au serveur au serveur à destination d'un ou plusieurs serveur , lorsque la connexion est acceptée par le serveur , il communique 
+renvoie une réponse au client . 
+
+Le serveur attend une connexion et à la suite du processus il communique avec le client .
+
+***********************************************************
+
+2/ Différences entre Serveur Local et Serveur Distant ?
+
+Un serveur local vous donne l'acces aux données et structures dans un ensemble de dossiers , quand on est en local , on peut modifier creer ou parcourir sur le serveur local 
+
+Un serveur distant donnent accès à des données dans l'entreprise , le niveau d'accès d'un utilisateur dépend de sa sécurité , on affecte souvent un ID client pour admninistrer ,
+Ainsi , un utilisateur peut mettre à jour les données sur le serveur distant 
+
+***********************************************************
+
+3/ Un paragraphe doit être réalisé sur WAMP / MAMP / … pour appuyer la réflexion du dessus. ?
+
+WampServeur est une plateforme de dev Web qui permet de faire fonctionner localement des scripts PHP , 
+Il y'a 3 serveur ( Apache , MySQL et MariaDB ) ,
+Un interpréteur pour PHP ainsi que PHPMyAdmin pour interface visuel de l'admninistration Web des requêtes SQL.
+
+Il existe plusieurs pack pour Windows , Mac , Linux :
+Mamp (Pour Mac)
+Wamp (Pour Windows)
+Xamp (Pour Linux)
+
+Tous les composants peuvent sont situés sur une même machine , Les rôles des composants sont : 
+
+Apache est le serveur web "frontal" : il est devant tous les autres et répond aux requêtes du client 
+Le languague PHP servira de logique 
+MySQL stocke toutes les données 
+L'OS assure l'attribution des ressources à ces 3 composants 
+
+***********************************************************
+
+4/ Différents Types de langage ( Style, balisage, programmation ). ?
+
+HTML : <> & </>
+
+language de balisage , il est utlisé afin de créer et de représenter le contenu d'une page web et sa structures .
+d'autre language sont utlisées avec HTML comme CSS
+
+CSS : {}
+
+c'est un language de style , il permet de redigé les sites structurés comme la tailles des titres , changer la police d'ecriture , le design ...
+
+PHP : <?php ?>
+
+Php est principalement utilisé pour produire des pages Web Dynamique via un serveur HTTP , mais pouvant également fonctionner comme n'importe quel language interprété de façon local
+
+Javascript :
+
+Javascript est un language de programmation de scripts principalement employé dans les pages web interactive et une partie essentiel des applications web .
+
+Python : 
+
+Python est un languagues de programmation interprété et multiplateforme . Il favorise la programmation impérative structurés , fonctionnelle et orientée objet .
+
+
+
+***********************************************************
+
+5/ Le fonctionnement de ces langages. ?
+
+Pour fonctionner, un programme informatique a besoin de logiciels informatique . Ces derniers sont élaborés à partir de languages précis qui décrivent l'ensemble des actions qu'un ordinateur
+doit réaliser . Basé sur des algorithmes bien précis , il n'est pas toujours aisé de savoir comment cela fonctionne .
+
+
+******************************************************************************************************************
